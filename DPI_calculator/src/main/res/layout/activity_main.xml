@@ -141,14 +141,14 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal|center_vertical"
-        android:text="0000"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="@+id/textView5" />
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        tools:text="000" />
 
     <Button
         android:id="@+id/bt_calculate"

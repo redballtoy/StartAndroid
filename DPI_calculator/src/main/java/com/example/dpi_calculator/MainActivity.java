@@ -33,13 +33,35 @@ public class MainActivity extends AppCompatActivity {
         calculationBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double diagonalScr = Double.valueOf(diagonalScreen.getText().toString());
-                Toast.makeText(getApplicationContext(),String.valueOf(diagonalScr),Toast.LENGTH_SHORT).show();
+                double diagonalScr = 0;
+                double widthScr = 0;
+                double heightScr = 0;
+                int dpi = 0;
+
+                if (diagonalScreen.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), R.string.enterValue, Toast.LENGTH_SHORT).show();
+                    return;
+                } else {
+                    diagonalScr = Double.valueOf(diagonalScreen.getText().toString());
+                }
+                if (widthScreen.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), R.string.enterValue, Toast.LENGTH_SHORT).show();
+                    return;
+                } else {
+                    widthScr = Double.valueOf(widthScreen.getText().toString());
+                }
+                if (heightScreen.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), R.string.enterValue, Toast.LENGTH_SHORT).show();
+                    return;
+                } else {
+                    heightScr= Double.valueOf(heightScreen.getText().toString());
+                }
+
+                //Toast.makeText(getApplicationContext(),String.valueOf(diagonalScr),Toast.LENGTH_SHORT).show();
                 //double widthScr = Double.valueOf(widthScreen.getText().toString());
                 //double heightScr = Double.valueOf(heightScreen.getText().toString());
-                //double dpi = Math.sqrt((Math.pow(widthScr, 2) + Math.pow(heightScr, 2))/ Math.pow(diagonalScr, 2));
-
-
+                dpi = (int)Math.round(Math.sqrt((Math.pow(widthScr, 2) + Math.pow(heightScr, 2))/ Math.pow(diagonalScr, 2)));
+                resultTV.setText(String.valueOf(dpi));
             }
         });
 

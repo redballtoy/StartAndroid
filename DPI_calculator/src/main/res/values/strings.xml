@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DPI_calculator</string>
+    <string name="enterValue">Введите число</string>
 </resources>
