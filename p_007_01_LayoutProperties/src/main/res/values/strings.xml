@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LayoutProperties</string>
+    <string name="bt_01">Frame Layout</string>
+    <string name="bt_02">Table Layout</string>
+</resources>

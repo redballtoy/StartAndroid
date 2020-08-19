@@ -1,3 +1,5 @@
+include ':p_009_01_OnClickButtons'
+include ':p_007_01_LayoutProperties'
 include ':DPI_calculator'
 include ':p_006_01_LayoutsTypes'
 include ':p_005_01_LayoutFiles'
