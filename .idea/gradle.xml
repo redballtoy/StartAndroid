@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DPI_calculator" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/p_003_01_FirstProject" />
+            <option value="$PROJECT_DIR$/p_004_01_BasicView" />
+            <option value="$PROJECT_DIR$/p_005_01_LayoutFiles" />
+            <option value="$PROJECT_DIR$/p_006_01_LayoutsTypes" />
+            <option value="$PROJECT_DIR$/p_180_01_ConstraintLayoutInfo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

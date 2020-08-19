@@ -1,0 +1,8 @@
+include ':DPI_calculator'
+include ':p_006_01_LayoutsTypes'
+include ':p_005_01_LayoutFiles'
+include ':p_180_01_ConstraintLayoutInfo'
+include ':p_004_01_BasicView'
+include ':p_003_01_FirstProject'
+include ':app'
+rootProject.name = "StartAndroid"
