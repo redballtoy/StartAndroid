@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label">Style using</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">UsingDatabase2</string>
+    <string name="Name">Name</string>
+    <string name="ID">ID</string>
+
+    <string name="Sex">Sex</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Age">Age</string>
+
+
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="Add">Add</string>
+    <string name="View">View</string>
+    <string name="Clear">Clear</string>
+
+</resources>
