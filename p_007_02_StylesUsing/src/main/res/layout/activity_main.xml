@@ -1,107 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@android:color/darker_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     android:orientation="vertical">
 
-
     <LinearLayout style="@style/main_LL_rows">
-
         <TextView
             style="@style/labels"
-            android:text="@string/ID" />
-
-        <EditText
-            android:id="@+id/etID"
-            style="@style/EditText_Number"
-            android:layout_width="60dp" />
-
-        <Button
-            android:id="@+id/btnEdit"
-            style="@style/btn_120dp"
-            android:text="@string/Edit" />
-
-        <Button
-            android:id="@+id/btnDelete"
-            style="@style/btn_120dp"
-            android:text="@string/Delete" />
-    </LinearLayout>
+            android:text="@string/ID"/>
 
 
-    <LinearLayout style="@style/main_LL_rows">
-
-        <TextView
-            style="@style/labels"
-            android:text="@string/Name" />
-
-        <EditText
-            android:id="@+id/etName"
-            style="@style/EditText_Text"
-            android:layout_width="match_parent" />
-    </LinearLayout>
-
-
-    <LinearLayout style="@style/main_LL_rows">
-
-        <TextView
-            style="@style/labels"
-            android:text="@string/Age" />
-
-        <EditText
-            android:id="@+id/etAge"
-            style="@style/EditText_Number"
-            android:layout_width="60dp" />
-    </LinearLayout>
-
-
-    <LinearLayout style="@style/main_LL_rows">
-
-        <TextView
-            style="@style/labels"
-            android:text="@string/Sex" />
-
-        <RadioGroup
-            android:id="@+id/rgSex"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <RadioButton
-                android:id="@+id/rbMale"
-                style="@style/Text"
-                android:layout_marginLeft="15dp"
-                android:checked="true"
-                android:text="@string/Male" />
-
-            <RadioButton
-                android:id="@+id/rbFemale"
-                style="@style/Text"
-                android:layout_marginLeft="15dp"
-                android:text="@string/Female" />
-        </RadioGroup>
-    </LinearLayout>
-
-
-    <LinearLayout style="@style/main_LL_rows">
-
-        <Button
-            android:id="@+id/btnAdd"
-            style="@style/Button"
-            android:layout_weight="1"
-            android:text="@string/Add" />
-
-        <Button
-            android:id="@+id/btnView"
-            style="@style/Button"
-            android:layout_weight="1"
-            android:text="@string/View" />
-
-        <Button
-            android:id="@+id/btnClear"
-            style="@style/Button"
-            android:layout_weight="1"
-            android:text="@string/Clear" />
     </LinearLayout>
 
 </LinearLayout>
