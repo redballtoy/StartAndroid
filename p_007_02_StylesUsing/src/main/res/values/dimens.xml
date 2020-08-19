@@ -2,5 +2,6 @@
 <resources>
     <dimen name="marginMiddle">16dp</dimen>
     <dimen name="textSizeMiddle">24sp</dimen>
-
+    <dimen name="highMiddle">60dp</dimen>
+    <dimen name="highHigh">120dp</dimen>
 </resources>

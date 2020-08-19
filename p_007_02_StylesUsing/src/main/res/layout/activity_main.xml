@@ -6,11 +6,73 @@
     android:orientation="vertical">
 
     <LinearLayout style="@style/main_LL_rows">
+
         <TextView
             style="@style/labels"
-            android:text="@string/ID"/>
+            android:text="@string/ID" />
 
+        <EditText
+            android:id="@+id/et_id"
+            style="@style/EditText_Number"
+            android:layout_width="@dimen/highMiddle" />
 
+        <Button
+            android:id="@+id/bt_edit"
+            style="@style/btn_120dp"
+            android:text="@string/Edit" />
+
+        <Button
+            android:id="@+id/bt_delete"
+            style="@style/btn_120dp"
+            android:text="@string/Delete" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/main_LL_rows">
+
+        <TextView
+            style="@style/labels"
+            android:text="@string/Name" />
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/EditText_Text"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/main_LL_rows">
+
+        <TextView
+            style="@style/labels"
+            android:text="@string/Age" />
+
+        <EditText
+            android:id="@+id/et_age"
+            style="@style/EditText_Number"
+            android:layout_width="@dimen/highMiddle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/main_LL_rows">
+        <TextView
+            style="@style/labels"
+            android:text="@string/Sex" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/rg_sex">
+            <RadioButton
+                style="@style/Text"
+                android:text="@string/Male"
+                android:checked="true"
+                android:id="@+id/rb_male"
+                android:layout_marginLeft="@dimen/marginMiddle"/>
+            <RadioButton
+                style="@style/Text"
+                android:text="@string/Female"
+                android:checked="true"
+                android:id="@+id/rb_female"
+                android:layout_marginLeft="@dimen/marginMiddle"/>
+        </RadioGroup>
     </LinearLayout>
 
 </LinearLayout>
