@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">OnClickButtons</string>
+    <string name="press_cancel_button_message">Нажата кнопка Cancel</string>
+    <string name="press_ok_button_message">Нажата кнопка Ок!</string>
+    <string name="toast_reset_message">Reset to TextView</string>
+    <string name="text_view_default_message">TextView</string>
 </resources>

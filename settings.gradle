@@ -1,3 +1,6 @@
+include ':p_010_02_ListenerUsingActivityVar'
+include ':p_010_01_ListenerUsingVar'
+include ':p_008_01_viewbycode'
 include ':p_007_02_StylesUsing'
 include ':p_009_01_OnClickButtons'
 include ':p_007_01_LayoutProperties'

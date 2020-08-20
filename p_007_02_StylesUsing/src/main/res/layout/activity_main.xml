@@ -52,27 +52,51 @@
     </LinearLayout>
 
     <LinearLayout style="@style/main_LL_rows">
+
         <TextView
             style="@style/labels"
             android:text="@string/Sex" />
+
         <RadioGroup
+            android:id="@+id/rg_sex"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:id="@+id/rg_sex">
+            android:orientation="horizontal">
+
             <RadioButton
-                style="@style/Text"
-                android:text="@string/Male"
-                android:checked="true"
                 android:id="@+id/rb_male"
-                android:layout_marginLeft="@dimen/marginMiddle"/>
-            <RadioButton
                 style="@style/Text"
-                android:text="@string/Female"
+                android:layout_marginLeft="@dimen/marginMiddle"
                 android:checked="true"
+                android:text="@string/Male" />
+
+            <RadioButton
                 android:id="@+id/rb_female"
-                android:layout_marginLeft="@dimen/marginMiddle"/>
+                style="@style/Text"
+                android:layout_marginLeft="@dimen/marginMiddle"
+                android:checked="true"
+                android:text="@string/Female" />
         </RadioGroup>
     </LinearLayout>
 
+    <LinearLayout style="@style/main_LL_rows">
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="@string/Add" />
+
+        <Button
+            android:id="@+id/btn_view"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="@string/View" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="@string/Clear" />
+    </LinearLayout>
 </LinearLayout>
