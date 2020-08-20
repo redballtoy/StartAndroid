@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tvTopText">Manual configuration</string>
+    <string name="tvBottomText">Code configuration</string>
+    <string name="btTopText">Start Manual Configuration</string>
+    <string name="btBottomText">Start Code Configuration</string>
+    <string name="btBottomTextDefault">Will be changed after start</string>
+        <color name="llTopColor">#336699</color>
+    <color name="llBottomColor">#339966</color>
+</resources>

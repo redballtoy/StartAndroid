@@ -23,6 +23,10 @@
             <option value="$PROJECT_DIR$/p_009_01_OnClickButtons" />
             <option value="$PROJECT_DIR$/p_010_01_ListenerUsingVar" />
             <option value="$PROJECT_DIR$/p_010_02_ListenerUsingActivityVar" />
+            <option value="$PROJECT_DIR$/p_011_01_ResValues" />
+            <option value="$PROJECT_DIR$/p_012_01_LogsAndToasts" />
+            <option value="$PROJECT_DIR$/p_013_01_MenuSimpleCreate" />
+            <option value="$PROJECT_DIR$/p_014_01_MenuAdvancedAdnGroup" />
             <option value="$PROJECT_DIR$/p_180_01_ConstraintLayoutInfo" />
           </set>
         </option>
