@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MenuAdvancedAdnGroup</string>
+    <string name="add_xml_0">add_xml_0</string>
+    <string name="edit_xml_0">edit_xml_0</string>
+    <string name="delete_xml_0">delete_xml_0</string>
+    <string name="copy_xml_1">copy_xml_1</string>
+    <string name="paste_xml_1">paste_xml_1</string>
+    <string name="exit_xml_1">exit_xml_1</string>
+    <string name="share_xml_2">share_xml_2</string>
+    <string name="post_xml_2">post_xml_2</string>
+    <string name="send_xml_2">send_xml_2</string>
 </resources>

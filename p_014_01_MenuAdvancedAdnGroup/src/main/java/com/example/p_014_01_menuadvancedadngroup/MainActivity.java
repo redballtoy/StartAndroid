@@ -1,8 +1,11 @@
 package com.example.p_014_01_menuadvancedadngroup;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
@@ -14,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvShowItemInfo;
     CheckBox chbExtendMenu1;
     CheckBox chbExtendMenu2;
+    Button btnStartXMLmenuActivity;
 
 
     @Override
@@ -24,6 +28,16 @@ public class MainActivity extends AppCompatActivity {
         tvShowItemInfo = findViewById(R.id.tv_show_item_info);
         chbExtendMenu1 = findViewById(R.id.chb_extend_menu1);
         chbExtendMenu2 = findViewById(R.id.chb_extend_menu2);
+        btnStartXMLmenuActivity = findViewById(R.id.bt_start_activity_with_xml_menu);
+
+
+        btnStartXMLmenuActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, XML_MenuCreateActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
@@ -42,9 +56,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    //update and extende menu
-
-
+    //update and extend menu
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         //if 1 group is visible
@@ -68,4 +80,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
