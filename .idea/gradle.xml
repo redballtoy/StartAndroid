@@ -27,6 +27,8 @@
             <option value="$PROJECT_DIR$/p_012_01_LogsAndToasts" />
             <option value="$PROJECT_DIR$/p_013_01_MenuSimpleCreate" />
             <option value="$PROJECT_DIR$/p_014_01_MenuAdvancedAdnGroup" />
+            <option value="$PROJECT_DIR$/p_015_01_MenuContext" />
+            <option value="$PROJECT_DIR$/p_016_01_LayoutDynamicCreate" />
             <option value="$PROJECT_DIR$/p_180_01_ConstraintLayoutInfo" />
           </set>
         </option>
