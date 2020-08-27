@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">p_016_02_LayoutParametersForViewCreate</string>
+    <string name="tv_text">Created TextView via code</string>
+    <string name="bt_text">Create button via code</string>
+</resources>
