@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         menu.add(0, MENU_COLOR_RED, 0, "Red");
         menu.add(0, MENU_COLOR_BLUE, 0, "Blue");
         menu.add(0, MENU_COLOR_GREEN, 0, "Green");
-        menu.add(0, MENU_COLOR_GRAY, 0, "Grey");
+        menu.add(0, MENU_COLOR_GRAY, 0, "Gray (default)");
         super.onCreateContextMenu(menu, v, menuInfo);
     }
 
