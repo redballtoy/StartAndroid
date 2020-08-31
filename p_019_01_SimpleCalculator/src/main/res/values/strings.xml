@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">p_019_01_SimpleCalculator</string>
+    <string name="error_divide_by_nul">Err divide by 0!</string>
+    <string name="menu_clear">Clear</string>
+    <string name="menu_quit">Quit</string>
+    <string name="not_null_message">The value must not be null</string>
+</resources>

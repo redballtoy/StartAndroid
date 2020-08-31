@@ -1,3 +1,4 @@
+include ':p_019_01_SimpleCalculator'
 include ':p_018_01_ChangeLayoutParamsOnRuntime'
 include ':p_017_01_CreateViewsOnRuntime'
 include ':p_016_02_LayoutParametersForViewCreate'
