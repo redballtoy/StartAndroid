@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">p_017_01_CreateViewsOnRuntime</string>
+    <string name="count_of_child_comp">Количество дочерних компонентов:</string>
+</resources>
