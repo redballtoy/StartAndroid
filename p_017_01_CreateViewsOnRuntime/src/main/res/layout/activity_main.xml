@@ -79,24 +79,42 @@
         app:layout_constraintStart_toEndOf="@+id/bt_create"
         app:layout_constraintTop_toTopOf="@+id/bt_create" />
 
-    <LinearLayout
-        android:id="@+id/ll_output"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_name_views_insert"
-        app:layout_constraintVertical_bias="0.04000002">
+        app:layout_constraintVertical_bias="0.01999998"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarFadeDuration="50000"
+        android:scrollbarSize="8dp"
+        android:scrollbarThumbVertical="@color/colorPrimary">
 
-        <TextView
-            android:id="@+id/textView2"
+
+        <LinearLayout
+            android:id="@+id/ll_output"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Здесь будет Button заложен:" />
-    </LinearLayout>
+            android:background="@android:color/holo_blue_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Здесь будет Button заложен:" />
+            <TextView
+                android:id="@+id/tv_components"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/count_of_child_comp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText etInsertName;
     Button btnCreate;
     Button btnClear;
+    TextView tvOutputChildrenViewInfo;
 
     int wrapContent = LinearLayout.LayoutParams.WRAP_CONTENT;
 
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnClear = findViewById(R.id.bt_clear);
         btnCreate = findViewById(R.id.bt_create);
         rgGravity = findViewById(R.id.rg_Gravity);
+        tvOutputChildrenViewInfo = findViewById(R.id.tv_components);
 
         btnCreate.setOnClickListener(this);
         btnClear.setOnClickListener(this);
@@ -66,6 +69,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Button btnNext = new Button(this);
                 btnNext.setText(etInsertName.getText().toString());
                 llOutput.addView(btnNext, layoutParams);
+
+                //output information about the number of child components
+                //get number of child components
+                int childCount = llOutput.getChildCount();
+                tvOutputChildrenViewInfo
+                        .setText(getString(R.string.count_of_child_comp) + String.valueOf(childCount));
+
                 break;
             case (R.id.bt_clear):
                 llOutput.removeAllViews();
