@@ -12,10 +12,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    TextView tvMplus, tvMc;
+    TextView tvMc,tvMplus;
     EditText etDiplay;
-
-    final int MENU_EXIT_ITEM_ID = 1;
+    StringBuilder sbMemory = new StringBuilder();
+    StringBuilder sbOutput = new StringBuilder();
 
 
     @Override
@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         etDiplay = findViewById(R.id.et_display);
-
 
     }
 
@@ -66,19 +65,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add(0,MENU_EXIT_ITEM_ID,0,"Quit");
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case MENU_EXIT_ITEM_ID:
-                finish();
-                break;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 }
