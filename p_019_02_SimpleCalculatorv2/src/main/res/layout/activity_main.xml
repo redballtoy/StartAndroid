@@ -32,39 +32,41 @@
         android:fontFamily="@font/display_digit"
         android:gravity="end|center"
         android:inputType="textMultiLine"
+        android:maxLines="6"
         android:paddingRight="8dp"
-        android:text="@string/_0"
+        android:hint="@string/_0"
+        android:textColorHint="@color/displayTextColor"
         android:textColor="@color/displayTextColor"
         android:textSize="44sp"
         android:focusable="true"
         android:focusableInTouchMode="false"
-        app:layout_constraintBottom_toTopOf="@+id/tv_ac_off"
+        app:layout_constraintBottom_toTopOf="@+id/tv_ac"
         app:layout_constraintEnd_toEndOf="@+id/tv_m_del_ch"
-        app:layout_constraintStart_toStartOf="@+id/tv_ac_off"
+        app:layout_constraintStart_toStartOf="@+id/tv_ac"
         app:layout_constraintTop_toBottomOf="@+id/tv_digizen"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/tv_m_c"
+        android:id="@+id/tv_ce"
         style="@style/buttonStyle"
         android:text="@string/tb_text_mc"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_ac_off"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_ac"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_m_plus"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/tv_ac_off"
-        app:layout_constraintTop_toTopOf="@+id/tv_ac_off" />
+        app:layout_constraintStart_toEndOf="@+id/tv_ac"
+        app:layout_constraintTop_toTopOf="@+id/tv_ac" />
 
     <TextView
         android:id="@+id/tv_m_plus"
         style="@style/buttonStyle"
         android:text="@string/tb_text_m_plus"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_m_c"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_ce"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_m_minus"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/tv_m_c"
-        app:layout_constraintTop_toTopOf="@+id/tv_m_c"
+        app:layout_constraintStart_toEndOf="@+id/tv_ce"
+        app:layout_constraintTop_toTopOf="@+id/tv_ce"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
@@ -80,9 +82,9 @@
 
 
     <TextView
-        android:id="@+id/tv_m_sqr"
+        android:id="@+id/percent"
         style="@style/buttonStyle"
-        android:text="@string/tb_text_sqr"
+        android:text="@string/tb_text_perc"
         app:layout_constraintBottom_toTopOf="@+id/tv_equally"
         app:layout_constraintEnd_toStartOf="@+id/tv_1"
         app:layout_constraintHorizontal_bias="0.5"
@@ -101,12 +103,12 @@
         app:layout_constraintTop_toTopOf="@+id/tv_m_minus" />
 
     <TextView
-        android:id="@+id/tv_ac_off"
+        android:id="@+id/tv_ac"
         style="@style/buttonOrangeStyle"
-        android:text="@string/tb_text_off"
+        android:text="@string/tb_text_ac"
         app:layout_constraintBottom_toTopOf="@+id/tv_left_scobka"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tv_m_c"
+        app:layout_constraintEnd_toStartOf="@+id/tv_ce"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -137,14 +139,14 @@
         style="@style/buttonStyle"
         android:text="@string/tb_text_9"
         app:layout_constraintBottom_toBottomOf="@+id/tv_8"
-        app:layout_constraintEnd_toStartOf="@+id/tv_dif"
+        app:layout_constraintEnd_toStartOf="@+id/tv_div"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_8"
         app:layout_constraintTop_toTopOf="@+id/tv_8" />
 
 
     <TextView
-        android:id="@+id/tv_dif"
+        android:id="@+id/tv_div"
         style="@style/buttonStyle"
         android:text="@string/tb_text_div"
         app:layout_constraintBottom_toBottomOf="@+id/tv_9"
@@ -207,8 +209,8 @@
     <TextView
         android:id="@+id/tv_righ_skobka"
         style="@style/buttonStyle"
-        android:text="@string/tb_text_left_scobka"
-        app:layout_constraintBottom_toTopOf="@+id/tv_m_sqr"
+        android:text="@string/tb_text_right_scobka"
+        app:layout_constraintBottom_toTopOf="@+id/percent"
         app:layout_constraintEnd_toStartOf="@+id/tv_4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -219,11 +221,11 @@
         android:id="@+id/tv_1"
         style="@style/buttonStyle"
         android:text="@string/tb_text_1"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_m_sqr"
+        app:layout_constraintBottom_toBottomOf="@+id/percent"
         app:layout_constraintEnd_toStartOf="@+id/tv_2"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/tv_m_sqr"
-        app:layout_constraintTop_toTopOf="@+id/tv_m_sqr" />
+        app:layout_constraintStart_toEndOf="@+id/percent"
+        app:layout_constraintTop_toTopOf="@+id/percent" />
 
     <TextView
         android:id="@+id/tv_2"
@@ -258,7 +260,7 @@
     <TextView
         android:id="@+id/tv_equally"
         style="@style/buttonOrangeStyle"
-        android:text="@string/tb_text_equity"
+        android:text="@string/tb_text_equally"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_0"
         app:layout_constraintHorizontal_bias="0.5"

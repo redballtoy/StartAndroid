@@ -2,12 +2,12 @@
     <string name="app_name">DigiDzen</string>
     <string name="digidzen">DigiDzen</string>
     <string name="_0">0</string>
-    <string name="tb_text_mc">MC</string>
+    <string name="tb_text_mc">CE</string>
     <string name="tb_text_m_plus">M+</string>
     <string name="tb_text_minus">M-</string>
-    <string name="tb_text_sqr">SQR</string>
+    <string name="tb_text_perc">%</string>
     <string name="tb_text_del"><![CDATA[<-]]></string>
-    <string name="tb_text_off">OFF</string>
+    <string name="tb_text_ac">AC</string>
     <string name="tb_text_7">7</string>
     <string name="tb_text_8">8</string>
     <string name="tb_text_9">9</string>
@@ -17,14 +17,18 @@
     <string name="tb_text_5">5</string>
     <string name="tb_text_6">6</string>
     <string name="tb_text_mult">*</string>
-    <string name="tb_text_left_scobka">)</string>
+    <string name="tb_text_right_scobka">)</string>
     <string name="tb_text_1">1</string>
     <string name="tb_text_2">2</string>
     <string name="tb_text_3">3</string>
     <string name="tb_text_sub">-</string>
-    <string name="tb_text_equity">=</string>
+    <string name="tb_text_equally">=</string>
     <string name="tb_text_0">0</string>
     <string name="tb_text_00">00</string>
     <string name="tb_text_point">.</string>
     <string name="tb_text_add">+</string>
+    <string name="tb_percent">*100</string>
+    <string name="toast_msg_ac">Display and Memory\n is Cleaned</string>
+    <string name="toast_msg_ce">Display\n is Cleaned</string>
+    <string name="error_exception">Error Exception</string>
 </resources>
