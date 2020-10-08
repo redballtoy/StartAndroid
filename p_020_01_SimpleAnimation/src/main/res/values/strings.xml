@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">p_020_01_SimpleAnimation</string>
+    <string name="context_menu_alpha">alpha</string>
+    <string name="context_menu_scale">scale</string>
+    <string name="context_menu_translate">translate</string>
+    <string name="context_menu_rotate">rotate</string>
+    <string name="context_menu_combo">combo</string>
+</resources>

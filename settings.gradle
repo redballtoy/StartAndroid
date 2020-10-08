@@ -1,6 +1,4 @@
-include ':p_142_01_PaintingSimpleShapesText'
-include ':p_141_02_SurvaceView'
-include ':p_141_01_CanvasView'
+include ':p_020_01_SimpleAnimation'
 include ':p_019_02_SimpleCalculatorv2'
 include ':p_019_01_SimpleCalculator'
 include ':p_018_01_ChangeLayoutParamsOnRuntime'
