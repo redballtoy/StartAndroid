@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">p_021_01_ExpilcitIntentTwoActivity</string>
+    <string name="go_to_activity_two">Go to Activity Two</string>
+    <string name="header_second_activity">This is Activity Two</string>
+</resources>

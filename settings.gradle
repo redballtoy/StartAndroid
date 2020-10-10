@@ -1,3 +1,5 @@
+include ':p_022_ActivityLifeCycleBasic'
+include ':p_021_01_ExpilcitIntentTwoActivity'
 include ':p_020_01_SimpleAnimation'
 include ':p_019_02_SimpleCalculatorv2'
 include ':p_019_01_SimpleCalculator'
