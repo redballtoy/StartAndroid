@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.gmail.redballtoy.p_020_01_simpleanimation"
+        applicationId "com.com.example.redballtoy.p_020_01_simpleanimation"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

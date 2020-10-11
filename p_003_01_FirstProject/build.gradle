@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.gmail.redballtoy.p_003_01_firstproject"
+        applicationId "com.com.example.redballtoy.p_003_01_firstproject"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

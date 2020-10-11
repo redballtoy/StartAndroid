@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.gmail.redballtoy.p_141_02_survaceview"
+        applicationId "com.com.example.redballtoy.p_141_02_survaceview"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

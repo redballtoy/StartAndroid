@@ -1,4 +1,4 @@
-package com.gmail.redballtoy.p_141_02_survaceview;
+package com.example.redballtoy.p_141_02_survaceview;
 
 import android.graphics.Canvas;
 import android.graphics.Color;

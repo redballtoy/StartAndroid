@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">p_024_01_ActivityLifeCycleTwoActivity</string>
+    <string name="go_to_activity_two">Go to Activity Two</string>
 </resources>

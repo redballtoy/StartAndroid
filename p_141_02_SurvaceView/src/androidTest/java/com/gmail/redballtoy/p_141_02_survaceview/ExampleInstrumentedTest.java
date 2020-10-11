@@ -1,4 +1,4 @@
-package com.gmail.redballtoy.p_141_02_survaceview;
+package com.example.redballtoy.p_141_02_survaceview;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.gmail.redballtoy.p_141_02_survaceview", appContext.getPackageName());
+        assertEquals("com.com.example.redballtoy.p_141_02_survaceview", appContext.getPackageName());
     }
 }

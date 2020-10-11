@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.gmail.redballtoy.p_142_01_paintingsimpleshapestext"
+        applicationId "com.com.example.redballtoy.p_142_01_paintingsimpleshapestext"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

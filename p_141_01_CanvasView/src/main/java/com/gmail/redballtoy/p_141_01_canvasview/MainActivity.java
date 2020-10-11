@@ -1,4 +1,4 @@
-package com.gmail.redballtoy.p_141_01_canvasview;
+package com.example.redballtoy.p_141_01_canvasview;
 
 import android.os.Bundle;
 

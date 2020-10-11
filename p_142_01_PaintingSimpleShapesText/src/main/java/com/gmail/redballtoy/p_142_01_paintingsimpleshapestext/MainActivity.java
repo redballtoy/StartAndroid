@@ -1,4 +1,4 @@
-package com.gmail.redballtoy.p_142_01_paintingsimpleshapestext;
+package com.example.redballtoy.p_142_01_paintingsimpleshapestext;
 
 import android.os.Bundle;
 

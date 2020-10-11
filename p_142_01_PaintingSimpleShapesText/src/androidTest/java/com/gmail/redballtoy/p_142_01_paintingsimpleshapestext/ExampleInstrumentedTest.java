@@ -1,4 +1,4 @@
-package com.gmail.redballtoy.p_142_01_paintingsimpleshapestext;
+package com.example.redballtoy.p_142_01_paintingsimpleshapestext;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.gmail.redballtoy.p_142_01_paintingsimpleshapestext", appContext.getPackageName());
+        assertEquals("com.com.example.redballtoy.p_142_01_paintingsimpleshapestext", appContext.getPackageName());
     }
 }

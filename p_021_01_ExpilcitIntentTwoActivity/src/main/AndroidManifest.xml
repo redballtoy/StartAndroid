@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gmail.redballtoy.p_021_01_expilcitintenttwoactivity">
+    package="com.example.redballtoy.p_021_01_expilcitintenttwoactivity">
 
     <application
         android:allowBackup="true"
@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SecondActivity"
+            android:name="com.com.example.redballtoy.p_021_01_expilcitintenttwoactivity.SecondActivity"
             android:label="@string/header_second_activity" />
-        <activity android:name=".MainActivity"
+        <activity android:name="com.com.example.redballtoy.p_021_01_expilcitintenttwoactivity.MainActivity"
             android:label="This is Activity One">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
