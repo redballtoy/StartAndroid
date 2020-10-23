@@ -42,16 +42,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(intent);
                 } else {
                     Toast.makeText(this, "No activity!", Toast.LENGTH_SHORT).show();
-                    break;
                 }
+                break;
             case R.id.bt_show_time:
                 intent = new Intent(getString(R.string.INTENT_ACTIVITY_SHOW_TIME));
                 if (isHasActivity(intent,this)) {
                     startActivity(intent);
                 } else {
                     Toast.makeText(this, "No activity!", Toast.LENGTH_SHORT).show();
-                    break;
                 }
+                break;
         }
     }
 
