@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">p_027_01_IntentGetAction</string>
+    <string name="INTENT_ACTIVITY_SHOW_TIME">com.example.redballtoy.action.showtime</string>
+    <string name="INTENT_ACTIVITY_SHOW_DATE">com.example.redballtoy.action.showdate</string>
+</resources>

@@ -1,3 +1,4 @@
+include ':p_027_01_IntentGetAction'
 include ':p_026_01_IntentFilter'
 include ':p_024_01_ActivityLifeCycleTwoActivity'
 include ':p_022_ActivityLifeCycleBasic'
