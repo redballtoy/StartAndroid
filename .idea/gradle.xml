@@ -11,6 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Adv_AppYoutube" />
             <option value="$PROJECT_DIR$/DPI_calculator" />
             <option value="$PROJECT_DIR$/TestJavaHere" />
             <option value="$PROJECT_DIR$/app" />
