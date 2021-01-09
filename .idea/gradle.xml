@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/DPI_calculator" />
+            <option value="$PROJECT_DIR$/TestJavaHere" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/p_003_01_FirstProject" />
             <option value="$PROJECT_DIR$/p_004_01_BasicView" />
