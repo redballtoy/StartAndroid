@@ -45,9 +45,10 @@ dependencies {
     //библиотека для поддержки некоторых стилей оформления
     implementation 'com.github.AndroidDeveloperLB:MaterialPreferenceLibrary:13'
     // Add for NavController support
-    implementation "com.mikepenz:materialdrawer-nav:8.3.1"
-    // Add for Android-Iconics support
+    implementation 'com.mikepenz:materialdrawer-nav:8.3.1'
     implementation "com.mikepenz:materialdrawer-iconics:8.3.1"
+    implementation ('com.mikepenz:materialdrawer:8.3.1@aar') {transitive = true}
+
 
 
 }

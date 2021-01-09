@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">О приложении</string>
+    <string name="no_result">Видео отсутствует</string>
+    <string name="no_internet_connection">Проверьте интернет соединение</string>
+    <string name="response_error">Время ожидания подключения истекло или сервер находится на обслуживании</string>
+    <string name="error_player">Ошибка воспроизведения</string>
+    <string name="retry">Повторить</string>
+    <string name="date_until_term_less">более</string>
+    <string name="date_until_unit_minute">минуты</string>
+    <string name="date_until_unit_minuta">минута</string>
+    <string name="date_until_unit_minutes">минут</string>
+    <string name="date_until_unit_hour">часа</string>
+    <string name="date_until_unit_hours">часов</string>
+    <string name="date_until_unit_month">месяца</string>
+    <string name="date_until_unit_months">месяцев</string>
+    <string name="date_until_unit_year">года</string>
+    <string name="date_until_unit_years">лет</string>
+    <string name="date_util_prefix_about">около</string>
+    <string name="date_util_prefix_over">более</string>
+    <string name="date_util_prefix_almost">почти</string>
+    <string name="date_util_suffix">назад</string>
+    <string name="pref_app_title">О приложении!</string>
+    <string name="pref_app_summary">Видеоуроки по разработке мобильных приложений</string>
+    <string name="pref_version_title">"Версия сборки: "</string>
+    <string name="pref_developer_title">Разработчик</string>
+    <string name="pref_share_title">Поделитесь приложением</string>
+    <string name="pref_share_summary">Расскажите друзьям об этом приложении</string>
+    <string name="pref_rate_review_title">Поставьте оценку</string>
+    <string name="pref_rate_review_Summary">Оцените приложение и оставьте отзыв в  GooglePlay</string>
+    <string name="share_to">Поделиться</string>
+    <string name="subject">Рекомендую видеоуроки о создании мобильных приложений на канале  StartAndroid</string>
+    <string name="message">"Вы можете скачать приложение \"Видеоуроки Start Android\" для Android в "</string>
+    <string name="new_videos">Новые видеоуроки</string>
+</resources>

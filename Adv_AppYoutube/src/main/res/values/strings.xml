@@ -1,3 +1,100 @@
 <resources>
-    <string name="app_name">Adv_AppYoutube</string>
+    <string name="app_name" translatable="false">Adv_AppYoutube</string>
+    <string name="youtube_apikey" translatable="false"></string>
+    <string name="googleplay_url" translatable="false"></string>
+    <string name="banner_ad_id" translatable="false"></string> <!-- Два ти па рекламных баннероы-->
+    <string name="interstitial_banner_ad_id" translatable="false"></string>
+
+    <!-- Плей листы для меню навигации -->
+    <string-array name="channel_names">
+        <item>Start Android</item>
+        <item>Разработка на Kotlin</item>
+        <item>Уроки по основам разработки android-приложений</item>
+        <item>Дизайн android приложений</item>
+        <item>Делаем android игры</item>
+        <item>Продвинутые курсы по андроид-разработке</item>
+        <item>Создаем android-приложения</item>
+    </string-array>
+
+    <!--Типы содержимого для пунктов меню панели навигации -->
+    <!-- Имеет два типа, либо ссылка на канал =1, либо на плейлист канала =2-->
+    <string-array name="video_types">
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+
+    <!--Идентификаторы каналов и плейлистов -->
+    <string-array name="channel_id">
+        <item>UCzE7HcbvyEiS5ea1rVRbPLQ</item>
+        <item>PLyfVjOYzujuj20Y-3kVhT3Zro9CrMNgNS</item>
+        <item>PLyfVjOYzujugap6Rf3ETNKkx4v9ePllNK</item>
+        <item>PLyfVjOYzujugPnav0g4l0GGOPbj_vUf93</item>
+        <item>PLyfVjOYzujuisikez6McGsBtKviTa_lty</item>
+        <item>PLyfVjOYzujug8ez4g6u68CXB_Ob7qpzHP</item>
+        <item>PLyfVjOYzujuhPJxUADhZd3BkvKGCPLMMD</item>
+    </string-array>
+
+    <string name="about">About</string>
+
+    <string name="no_result">No video</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="response_error">Connection time out or server under maintenance</string>
+    <string name="error_player">Error player</string>
+
+    <string name="retry">Retry</string>
+
+    <string name="date_until_term_less">Date until term less</string>
+    <string name="date_until_unit_minute">Date until unit minute</string>
+    <string name="date_until_unit_minuta">Date until unit minuta</string>
+    <string name="date_until_unit_minutes">Date until unit minutes</string>
+    <string name="date_until_unit_hour">Date until unit hour</string>
+    <string name="date_until_unit_hours">Date until unit hours</string>
+    <string name="date_until_unit_month">Date until unit month</string>
+    <string name="date_until_unit_months">Date until unit months</string>
+    <string name="date_until_unit_year">Date until unit year</string>
+    <string name="date_until_unit_years">Date until unit years</string>
+
+
+    <string name="date_util_prefix_about">Prefix about</string>
+    <string name="date_util_prefix_over">Prefix over</string>
+    <string name="date_util_prefix_almost">Prefix almost</string>
+
+
+    <string name="date_util_suffix">Suffix</string>
+
+    <string name="pref_share_key" translatable="false">prefShareKey</string>
+    <string name="pref_rate_review_key" translatable="false">prefRateReviewKey</string>
+
+    <string name="pref_app_title">About app</string>
+    <string name="pref_app_summary">Video tutorials on mobile app development</string>
+    <string name="pref_version_title">Version title.</string>
+    <string name="pref_version_summary" translatable="false">1.0</string>
+    <string name="pref_developer_title">Developer</string>
+    <string name="pref_developer_summary" translatable="false">FandroidApp</string>
+    <string name="pref_share_title" >Share the app</string>
+    <string name="pref_share_summary" >Tell your friends about this app</string>
+    <string name="pref_rate_review_title" >Rate</string>
+    <string name="pref_rate_review_Summary" >Rate the app and give feedback on GooglePlay</string>
+
+    <string name="share_to" >Share to</string>
+    <string name="subject" >I recommend video tutorials on creating mobile applications on the channel StartAndroid</string>
+    <string name="message" >You can download the "Start Android Video Tutorials" application for Android at</string>
+
+    <string name="new_videos" >New Videos</string>
+
+
+
+
+
+
+
+
+
+
+
 </resources>
